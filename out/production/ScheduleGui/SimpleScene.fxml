@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <TextField layoutX="210.0" layoutY="131.0" promptText="Login" />
+            <PasswordField layoutX="210.0" layoutY="200.0" promptText="Password" />
+            <CheckBox layoutX="210.0" layoutY="168.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="160.0" text="Remember me" textFill="#656565" />
+            <Button layoutX="210.0" layoutY="242.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="160.0" style="-fx-background-color: #;" text="Log in " />
+            <PasswordField layoutX="247.0" layoutY="49.0" promptText="Hello" style="-fx-background-color: black; -fx-border-radius: 26;" />
+            <ToggleButton layoutX="467.0" layoutY="323.0" mnemonicParsing="false" text="ToggleButton" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
